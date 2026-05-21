@@ -10,9 +10,12 @@ repository = "https://github.com/thaw-ui/leptos-transition-group"
 license = "MIT"
 
 [dependencies]
-leptos = { version = "0.8.0" }
+leptos = { version = "0.9.0-alpha" }
 send_wrapper = "0.6.0"
 web-sys = "0.3.70"
 
 [workspace]
 members = ["examples/demo"]
+
+[patch.crates-io]
+leptos = { git = "https://github.com/tysen/leptos", branch = "leptos_0.9" }
