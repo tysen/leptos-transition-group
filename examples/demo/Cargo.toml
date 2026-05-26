@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-leptos = { version = "0.8.0-beta", features = ["csr"] }
-leptos_meta = { version = "0.8.0-beta" }
+leptos = { git = "https://github.com/leptos-rs/leptos", branch = "leptos_0.9", features = ["csr"] }
+leptos_meta = { git = "https://github.com/leptos-rs/leptos", branch = "leptos_0.9" }
 leptos_transition_group = { path = "../../" }
-thaw = { git = "https://github.com/thaw-ui/thaw", branch = "thaw/v0.5", features = ["csr"] }
+thaw = { git = "https://github.com/tysen/thaw", branch = "leptos_0.9", features = ["csr"] }
