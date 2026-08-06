@@ -10,7 +10,7 @@ repository = "https://github.com/thaw-ui/leptos-transition-group"
 license = "MIT"
 
 [dependencies]
-leptos = { git = "https://github.com/leptos-rs/leptos", branch = "leptos_0.9" }
+leptos = { version = "0.9.0-beta" }
 send_wrapper = "0.6.0"
 web-sys = "0.3.70"
 
